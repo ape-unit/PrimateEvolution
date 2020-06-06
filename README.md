@@ -1,3 +1,6 @@
+I made a google doc for planning out stuff here: https://drive.google.com/drive/folders/1sQjQ8UO4YZtR8dWChhvOnKbfM6zSqFpI?usp=sharing
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
