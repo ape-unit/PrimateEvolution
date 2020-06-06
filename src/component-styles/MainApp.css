@@ -1,0 +1,11 @@
+.app-bg {
+    /* border: solid; */
+    padding: 0px;
+}
+  
+.central-div {
+    width: 90%;
+    margin-left: 5%;
+    height: 700px;
+    border: solid;
+}
