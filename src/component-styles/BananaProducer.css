@@ -1,0 +1,29 @@
+.upgrade-affordable {
+    border: none;
+    background-color: white;
+    background-image: url("../images/upgrade-affordable.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 170px;
+    height: 40px;
+    outline: none;
+}
+
+.upgrade-affordable:hover {
+    background-image: url('../images/upgrade-hover.png');
+}
+
+.upgrade-affordable:active {
+    background-image: url('../images/upgrade-click.png');
+}
+
+.upgrade-too-expensive {
+    border: none;
+    background-color: white;
+    background-image: url("../images/upgrade-too-expensive.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 170px;
+    height: 40px;
+    outline: none;
+}
