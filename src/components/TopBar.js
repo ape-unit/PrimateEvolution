@@ -20,7 +20,7 @@ class TopBar extends Component {
             <div class="top-bg">
                 <div class="top-content">
                     <img class="banana-icon" src={BananaIcon} alt="bananas: " />
-                    <h1 class="banana-count-text">{this.props.bananas}</h1>
+                    <h1 class="banana-count-text">{Math.round(this.props.bananas)}</h1>
                 </div>
             </div> 
         )

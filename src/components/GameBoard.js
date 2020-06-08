@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import BananaProducer from './BananaProducer.js';
+import BananaFarm from '../images/banana-farm.jpg';
+import BananaFactory from '../images/banana-factory.png';
 import '../component-styles/GameBoard.css'
 
 class GameBoard extends Component {
@@ -40,7 +42,8 @@ class GameBoard extends Component {
                     cost for the upgrade (which icreases as you buy more), and what it does to improve your progress */}
                 <button onClick={() => this.increaseBananasPerClick(1,10)}>Bigger Bunches (cost: 10 bananas) +1 banana per click</button>
                 <h1>{"Bananas per click: " + this.state.bananasPerClick}</h1>
-                <BananaProducer price={10} bananas={this.props.bananas}/>
+                <BananaProducer name={"Banana Farm"} price={10} value={5} bananas={this.props.bananas} addBananas={this.props.addBananas} icon={BananaFarm} />
+                <BananaProducer name={"Banana Factory"} price={1000} value={250} bananas={this.props.bananas} addBananas={this.props.addBananas} icon={BananaFactory} />
             </div> 
         )
     }
